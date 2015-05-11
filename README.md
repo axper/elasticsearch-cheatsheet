@@ -1,6 +1,8 @@
 # Elasticsearch Query DSL (Queries & Filters) Chatsheet
 
-The angular brackets 
+The angular brackets mean that the Filter/Query doesn't have a Query/Filter counterpart.
+
+No angular brackets mean that both Filter/Query are available for this keyword.
 
 ## Meta
 * `And`&lt;Filter&gt;
