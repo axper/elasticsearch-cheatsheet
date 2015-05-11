@@ -5,9 +5,6 @@ The angular brackets mean that the Filter/Query doesn't have a Query/Filter coun
 No angular brackets mean that both Filter/Query are available for this keyword.
 
 ## Meta
-* `And`&lt;Filter&gt;
-* `Not`&lt;Filter&gt;
-* `Or`&lt;Filter&gt;
 * `Exists`&lt;Filter&gt; - IS NOT NULL
 * `Missing`&lt;Filter&gt; - IS NULL
 * `Type`&lt;Filter&gt; - Document type
@@ -21,6 +18,9 @@ No angular brackets mean that both Filter/Query are available for this keyword.
 * `Bool` - combines other filters/queries` - must, must_not, should
 * `Filtered`&lt;Query&gt; - Combines query with filter
 * `Query` - Wraps any query, converts it to filter
+* `And`&lt;Filter&gt;
+* `Not`&lt;Filter&gt;
+* `Or`&lt;Filter&gt;
 
 ## Search
 * `Match All`
