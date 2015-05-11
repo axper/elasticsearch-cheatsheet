@@ -26,7 +26,7 @@ No angular brackets mean that both Filter/Query are available for this keyword.
 * `Match All`
 * `Range` - Number/Word range
 
-## String search
+### String search
 * `Term` - Text contains the word
 * `Terms` - Text contains multiple words
 * `Match`&lt;Query&gt; - Text contains words
